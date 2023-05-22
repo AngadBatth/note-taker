@@ -1,13 +1,22 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "application used to take notes",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "AngadBatth",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngadBatth/note-taker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AngadBatth/note-taker/issues"
+  },
+  "homepage": "https://github.com/AngadBatth/note-taker#readme",
   "dependencies": {
     "express": "^4.16.4"
   }
