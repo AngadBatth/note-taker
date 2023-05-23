@@ -13,6 +13,8 @@ This is an application used to write down and save/delete notes. This applicatio
 <br />
 
 ## Usage
+[Deployed Application Link](https://lit-peak-35982.herokuapp.com/)
+
 When you first load up the application you will be met with the Title of the application, a short description and a button that will take you to the notes page.<br /><br />
 
 ![Example of Landing Page](./public/assets/images/landingpage.png)<br />
