@@ -6,14 +6,14 @@ const notes = require("express").Router();
 let data = require("../db/db.json");
 
 const addUUID = (obj) => {
-    
+
   obj.id = randomUUID();
   return obj;
 };
 
 const updateDB = (data) => {
 
-  writeFile("./db/db.json", JSON.stringify(data), (err) => {
+  writeFile("../db/db.json", JSON.stringify(data), (err) => {
     if (err) console.error(err);
   });
 };
